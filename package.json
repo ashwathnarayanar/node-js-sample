@@ -29,6 +29,6 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "lighthousebot": "git+https://github.com/GoogleChromeLabs/lighthousebot.git"
+    "lighthousebot": "git+https://github.com/ebidel/lighthousebot.git"
   }
 }
