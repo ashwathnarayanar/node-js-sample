@@ -4,4 +4,4 @@ node_js:
 install:
  - npm install
 after_success:
- - npm run lh -- --perf=96 --pwa=100 http://r19-3-qa.lle-mcommerce.kohls.com
+ - npm run lh -- --perf=96 --pwa=100 --a11y=50  --bp=70 --seo=100 http://r19-3-qa.lle-mcommerce.kohls.com
