@@ -9,8 +9,7 @@
   },
   "dependencies": {
     "express": "^4.13.3",
-    "lighthouse-ci": "git+https://github.com/ebidel/lighthouse-ci.git",
-    "lighthousebot": "git+https://github.com/ebidel/lighthousebot.git"
+    "lighthouse-ci": "git+https://github.com/ebidel/lighthouse-ci.git"
   },
   "engines": {
     "node": "4.0.0"
@@ -28,5 +27,8 @@
   "contributors": [
     "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com)"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "lighthousebot": "git+https://github.com/GoogleChromeLabs/lighthousebot.git"
+  }
 }
