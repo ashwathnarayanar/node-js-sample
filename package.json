@@ -4,10 +4,13 @@
   "description": "A sample Node.js app using Express 4",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "lh": "lighthousebot"
   },
   "dependencies": {
-    "express": "^4.13.3"
+    "express": "^4.13.3",
+    "lighthouse-ci": "git+https://github.com/ebidel/lighthouse-ci.git",
+    "lighthousebot": "git+https://github.com/ebidel/lighthousebot.git"
   },
   "engines": {
     "node": "4.0.0"
